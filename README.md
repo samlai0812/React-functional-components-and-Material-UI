@@ -1,6 +1,8 @@
-## 修改尚硅谷教程 React Class Component 的 Count 求和案例，使用 React Functional Component 和 Material UI
+## React function components and Material UI
 
-## Button 被 override， 看 App.jsx
+#### 修改尚硅谷教程 React Class Component 的 Count 求和案例，使用 React Functional Component 和 Material UI
+
+#### Button 被 override， 看 App.jsx
 
     const theme = createMuiTheme({
     overrides: {
@@ -13,9 +15,9 @@
     },
     });
 
-## TextField 的 ref 要改為 inputRef
+#### TextField 的 ref 要改為 inputRef
 
-## Count 和 Person 的信息傳遞，使用 Pub Sub
+#### Count 和 Person 的信息傳遞，使用 Pub Sub
 
     安裝: npm pubsub-js
     setState 執行後，更新了 state，然後 React render DOM,
