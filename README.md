@@ -22,4 +22,4 @@
     安裝: npm pubsub-js
     setState 執行後，更新了 state，然後 React render DOM,
     但是由於 setState 是異步函數，無法及時取得最新的 state 給 PubSub.publish 傳遞 state
-    所以把 publish 放在 useEffect 里。
+    所以把 publish 放在 useEffect 里面。
