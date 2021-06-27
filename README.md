@@ -24,4 +24,16 @@
     但是由於 setState 是異步函數，無法及時取得最新的 state 給 PubSub.publish 傳遞 state
     所以把 publish 放在 useEffect 里面。
 
-### webpage https://samlai0812.github.io/React-functional-components-and-Material-UI
+### Deploy
+
+安裝 gh-pages : npm install gh-pages --save-dev
+修改 package.json :
+
+    "homepage": "https://samlai0812.github.io/React-functional-components-and-Material-UI"
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+
+publish : npm run build
+
+webpage https://samlai0812.github.io/React-functional-components-and-Material-UI
